@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenedor{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+
+.flexCentrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-top{
+    width: 40vw;
+    height: 40vh;
+    background-color: aqua;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 5vh auto;
+}
+
+#left-top-corner{
+    border-top-left-radius: 60px;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.color3ds{
+    background-color:rgb(73, 95, 136);
+}
+
+.almohadilla{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(60, 78, 112);
+    border: 1px solid rgb(64, 83, 119);
+    border-radius: 5px;
+    box-shadow: inset rgb(60, 60, 60) 1px 1px 1px 1px;
+}
+
+#mid-top{
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr 2fr 3fr 1fr 2fr;
+}
+
+#mid-top-div1{
+    grid-column: 1/2;
+}
+
+
+#right-top-corner{
+    border-top-right-radius: 60px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.relieve-top{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(60, 78, 112);
+    border: 1px solid rgb(64, 83, 119);
+    border-radius: 50px;
+    box-shadow: inset rgb(103, 103, 103) -1px 0px 0px 1px;
+}
+
+#lente-top{
+    width: 40%;
+    height: 50%;
+    background-image: url("../images/lente.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lente-top-side{
+    width: 15%;
+    height: 25%;
+    background-image: url("../images/lente.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#section-top-mid-left{
+    grid-row: 2/3 ;
+    display: grid;
+    grid-template-rows: 3fr 3fr 3fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+#section-top-mid-left-div-1{
+    grid-row: 1/2;
+}
+
+#section-top-mid-left-div-2{
+    grid-row: 2/3;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+#dot-top{
+    grid-column: 3/4 ;
+    grid-row: 1/2;
+    height: 150%;
+}
+
+
+
+#dot-right{
+    grid-column: 4/5 ;
+    grid-row: 2/3;
+    width: 75%;
+}
+
+#dot-bottom{
+    grid-column: 3/4 ;
+    grid-row: 3/4;
+    height: 50%;
+}
+
+#dot-left{
+    grid-column: 2/3 ;
+    grid-row: 2/3;
+    width: 125%;
+
+}
+
+#dot-middle{
+    grid-column: 3/4 ;
+    grid-row: 2/3;
+
+}
+
+#section-top-mid-left-div-3{
+    width: 100%;
+    height: 100%;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 10% 10% auto;
+}
+
+#volumen{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(30, 39, 56);
+    border-radius: 20px;
+    grid-column: 1/2;
+    
+}
+
+#volumen>h1{
+    font-weight: 900;
+    height: 30%;
+}
+
+#pestaña-volumen{
+    height:25%;
+    border-radius: 20px;
+    box-shadow: inset rgb(103, 103, 103) -1px 0px 0px 1px;
+    border: 1px solid rgb(64, 83, 119);
+}
+
+#relieves-volumen{
+    height: 100%;
+    grid-column: 2/3;
+    
+}
+
+.container-triangulo{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.triangulo{
+    width: 0;
+    height: 0;
+    border-right: 2px solid transparent;
+    border-top: 10px solid  rgb(60, 78, 112);
+    border-left: 10px solid  rgb(60, 78, 112);
+    border-bottom: 50px solid transparent;
+    margin-left: 5px;
+}
+
+.texto-volumen{
+    font-weight: 900;
+    font-size: 13px;
+    margin-left: 5px;
+    color:  rgb(60, 78, 112);
+    -webkit-text-stroke: 1px rgb(47, 60, 86);
+
+}
+
+#container-letras-volumen{
+    width: 100%;
+    height: 100%;
+    grid-column: 3/4;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+
+#section-top-mid-left-div-4{
+    grid-row: 4/5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+#section-top-mid-right{
+    grid-column: 3/4 ;
+    display: grid;
+    grid-template-rows: 3fr 3fr 3fr 1fr;
+    grid-template-columns: 1fr;
+    background-color: black;
+}
