@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="css/style.css"/>
         <link
@@ -186,13 +187,37 @@
                 <div id="seccion-bottom-mid-top" class="bordes-bottom-mid"></div>
                 <div id="contenedor-pantalla-bottom-mid" class="bordes-bottom-mid">
                     <div id="division-pantalla-bottom-mid">
-                        <div id="pantalla-bottom-mid"></div>
+                        <div id="pantalla-bottom-mid">
+                            <div id="pantalla">
+                                <button id="dinosaurio" onclick="dinosaurio()"></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div id="section-bottom-mid-bottom" class="bordes-bottom-mid"></div>
+                <div id="section-bottom-mid-bottom" class="bordes-bottom-mid">
+                    <div id="contenedor-boton-home" class="flexCentrar">
+                        <button id="button-home" class="flexCentrar color3ds">
+                            <span class="material-symbols-outlined">
+                            home
+                            </span>
+                        </button>
+                    </div>
+                    <div id="contenedor-mic-ledAzul">
+                        <div id="contenedor-mic" class="flexCentrar">
+                            <p class="texto-3d">MIC</p>
+                            <div id="puntoMic"></div>
+                        </div>
+                        <div id="contenedor-ledAzul">
+                            <div id="ledAzul"></div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
         </div>
     </div>
+
+
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
