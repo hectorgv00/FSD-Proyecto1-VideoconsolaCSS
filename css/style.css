@@ -29,6 +29,21 @@
 
 }
 
+.color3ds {
+    background-color: rgb(73, 95, 136);
+}
+
+.almohadilla {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(60, 78, 112);
+    border: 1px solid rgb(64, 83, 119);
+    border-radius: 5px;
+    box-shadow: inset rgb(60, 60, 60) 1px 1px 1px 1px;
+}
+
+
+
 /* --------Section-top------- */
 
 #section-top {
@@ -49,18 +64,6 @@
     justify-content: flex-end;
 }
 
-.color3ds {
-    background-color: rgb(73, 95, 136);
-}
-
-.almohadilla {
-    width: 20px;
-    height: 20px;
-    background-color: rgb(60, 78, 112);
-    border: 1px solid rgb(64, 83, 119);
-    border-radius: 5px;
-    box-shadow: inset rgb(60, 60, 60) 1px 1px 1px 1px;
-}
 
 #mid-top {
     display: grid;
@@ -705,6 +708,8 @@
     cursor: pointer;
     border: none;
 }
+
+
 
 #section-bottom-mid-bottom {
     grid-row: 3/4;
