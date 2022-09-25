@@ -625,78 +625,77 @@
 
 /* ------Juego Dinosaurio------- */
 
-#juegoDinosaurio{
-  height: 100%;
-  width: 100%;  
-  background-color: rgb(223, 220, 220);
-  border: 4px solid black;
-  position: relative;
-  overflow: hidden;
+#juegoDinosaurio {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(223, 220, 220);
+    border: 4px solid black;
+    position: relative;
+    overflow: hidden;
 }
 
-.dino{
-  width: 84px;
-  height: 84px;
-  position: absolute;
-  bottom: 75px;
-  left: 30px;
-  z-index: 2;
-  background: url(../images/minijuego-dinosaurio/dino.png) repeat-x 0px 0px;
-  background-size: 336px 84px;
-  background-position-x: 0px;
-  
+.dino {
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    bottom: 75px;
+    left: 30px;
+    z-index: 2;
+    background: url("../images/minijuego-dinosaurio/dino.png") repeat-x 0 0;
+    background-size: 336px 84px;
+    background-position-x: 0;
 
 }
 
-.dino-corriendo{
-  animation: animarDino 0.25s steps(2) infinite;
+.dino-corriendo {
+    animation: animarDino 0.25s steps(2) infinite;
 }
 
-.dino-estrellado{
-  background-position-x: -252px;
-}
-
-@keyframes animarDino{
-  from{
-    background-position-x: -84px;
-  }
-  to{
+.dino-estrellado {
     background-position-x: -252px;
-  }
 }
 
-.suelo{
-  width: 200%;
-  height: 42px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: url(../images/minijuego-dinosaurio/suelo.png) repeat-x 0px 0px;
-  background-size: 50% 42px;
+@keyframes animarDino {
+    from {
+        background-position-x: -84px;
+    }
+    to {
+        background-position-x: -252px;
+    }
 }
 
-.score{
-  width: 100px;
-  height: 30px;
-  position: absolute;
-  top: 5px;
-  right: 15px;
-  z-index: 10;
-  color: black;
-  font-size: 30px;
-  font-weight: bold;
-  
+.suelo {
+    width: 200%;
+    height: 42px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url("../images/minijuego-dinosaurio/suelo.png") repeat-x 0 0;
+    background-size: 50% 42px;
 }
 
-.cactus{
-  width: 46px;
-  height: 96px;
+.score {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    z-index: 10;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
 
-  position: absolute;
-  bottom: 16px;
-  left: 600px;
-  z-index: 1;
-  background: url(../images/minijuego-dinosaurio/cactus1.png) no-repeat;
+}
+
+.cactus {
+    width: 46px;
+    height: 96px;
+
+    position: absolute;
+    bottom: 16px;
+    left: 600px;
+    z-index: 1;
+    background: url("../images/minijuego-dinosaurio/cactus1.png") no-repeat;
 }
 
 #dinosaurio {
@@ -765,7 +764,7 @@
 
 #contenedor-ledAzul {
     margin-left: 25%;
-    margin-top:10%;
+    margin-top: 10%;
     height: 100%;
     display: flex;
     align-items: flex-end;
