@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="css/style.css"/>
+        <link rel="shortcut icon" href="/images/faviconblue.ico" />
+
         <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,200,1,0"/>
@@ -150,7 +152,7 @@
             <!-- ------------------------Pantalla de arriba---------- -->
 
             <div id="pantalla-arriba" class="flexCentrar">
-                <div id="imagen-pantalla-arriba" class="sombraGeneral"></div>
+                <div id="imagen-pantalla-arriba" class="sombraGeneral displayNone"></div>
             </div>
             </div>
 
@@ -188,9 +190,11 @@
                 <div id="contenedor-pantalla-bottom-mid" class="bordes-bottom-mid">
                     <div id="division-pantalla-bottom-mid">
                         <div id="pantalla-bottom-mid">
+                            <div id="displayPantalla" class="displayNone">
                             <div id="pantalla">
                                 <button id="dinosaurio" onclick="dinosaurio()"></button>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -208,7 +212,7 @@
                             <div id="puntoMic"></div>
                         </div>
                         <div id="contenedor-ledAzul">
-                            <div id="ledAzul"></div>
+                            <div id="ledAzul" class="ledColor"></div>
                         </div>
                     </div>
                 </div>
@@ -252,7 +256,7 @@
                         <div id="ledoff"></div>
                     </div>
                     <div id="contenedor-ledYellow">
-                        <div id="ledYellow"></div>
+                        <div id="ledYellow" class="ledColor"></div>
                     </div>
                 </div>
             </section>

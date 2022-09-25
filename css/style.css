@@ -366,6 +366,7 @@
   border-radius: 10px;
   height: 100%;
   width: 100%;
+  background-color: black;
 }
 
 #imagen-pantalla-arriba{
@@ -377,6 +378,10 @@
     background-position: center;
     border: 4px solid black;
     background-repeat: no-repeat;
+}
+
+.displayNone{
+  display: none;
 }
 
 .sombraGeneral{
@@ -602,8 +607,13 @@
 
 #pantalla-bottom-mid{
     grid-column: 2/3;
+    background-color: black;
     
-    
+}
+
+#displayPantalla{
+  height: 100%;
+  width: 100%;
 }
 
 #pantalla{
@@ -699,7 +709,17 @@
 #ledAzul{
     height: 10px;
     width: 5px;
-    background-color: aqua;
+
+}
+
+.ledColor{
+  background-color: rgb(55, 55, 55);
+
+}
+
+.ledazul{
+  background-color: aqua;
+
 }
 
 #section-bottom-right{
@@ -900,5 +920,9 @@ background-color: rgb(55, 55, 55);
 #ledYellow{
   height: 10px;
 width: 5px;
-background-color: rgb(206, 255, 70);
+}
+
+.ledyellow{
+  background-color: rgb(206, 255, 70);
+
 }
