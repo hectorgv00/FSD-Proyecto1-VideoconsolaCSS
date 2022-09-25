@@ -46,6 +46,7 @@ document.getElementById("boton-power").addEventListener("click", encendido =()=>
     
         if (topScreen.classList.value === "sombraGeneral displayNone"){
             topScreen.classList.remove("displayNone");
+            document.getElementById("audio").innerHTML = '<audio src="/audio/3ds-startup.mp3" autoplay="autoplay"></audio>'
         } else if( topScreen.classList.value === "sombraGeneral"){
             topScreen.classList.add("displayNone");
 
@@ -62,6 +63,8 @@ document.getElementById("boton-power").addEventListener("click", encendido =()=>
 
         }
 
+        
+
 })
 
 
@@ -75,6 +78,7 @@ document.getElementById("dinosaurio").addEventListener("click", ()=>{
     if (pantallaMenu.classList.value === ""){
         pantallaMenu.classList.add("displayNone");
         pantallaJuego.classList.remove("displayNone");
+
     }
 
         
