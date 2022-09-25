@@ -1,8 +1,8 @@
 # FSD-Proyecto1-VideoconsolaCSS (3DS)
 
-Primer proyecto del Bootcamp Full Stack Developer que consistirá en reproducir la imagen frontal de una consola usando HTML y CSS
 
-En este caso, será una aplicación web que replica el estilo de una Nintendo new 3DS XL con las siguientes funcionalidades:
+
+Aplicación web que replica el estilo de una Nintendo new 3DS XL con las siguientes funcionalidades:
 - Botones funcionales➕
 - Encendido y apagado🎇
 - Minijuego incluido.🕹
@@ -10,8 +10,7 @@ En este caso, será una aplicación web que replica el estilo de una Nintendo ne
 
 ## new 3DS XL (Funcionamiento)
 
-![Interfaz de la app]("https://i.ibb.co/DVPYt3S/para-Readme.jpg")
-
+![Descripción app](https://i.postimg.cc/65b5p8rc/para-Readme.jpg)
 
 
 - 1: Botón de encendido. Haciendo click en el se encenderán las pantallas y los leds. Y si estos están encendidos, se apagarán
