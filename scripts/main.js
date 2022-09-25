@@ -63,6 +63,11 @@ document.getElementById("boton-power").addEventListener("click", encendido =()=>
 
         }
 
+        // ------------Musica------------
+
+        if(topScreen.classList.value === "sombraGeneral displayNone"){
+            document.getElementById("audio").innerHTML = '<audio src="/audio/3ds-startup.mp3" autoplay="autoplay"></audio>'
+        }
         
 
 })
@@ -78,7 +83,6 @@ document.getElementById("dinosaurio").addEventListener("click", ()=>{
     if (pantallaMenu.classList.value === ""){
         pantallaMenu.classList.add("displayNone");
         pantallaJuego.classList.remove("displayNone");
-
     }
 
         
