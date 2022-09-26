@@ -67,7 +67,7 @@ document.getElementById("boton-power").addEventListener(
 
     if (topScreen.classList.value === "sombraGeneral displayNone") {
       document.getElementById("audio").innerHTML =
-        '<audio src="/audio/3ds-startup.mp3" autoplay="autoplay"></audio>';
+        '<audio src="./audio/3ds-startup.mp3" autoplay="autoplay"></audio>';
     }
   })
 );
