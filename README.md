@@ -24,7 +24,7 @@ Aplicación web que replica el estilo de una Nintendo new 3DS XL con las siguien
 * [CSS](https://developer.mozilla.org/es/docs/Web/CSS) 
 * [JavaScript Vanilla](https://developer.mozilla.org/es/docs/Web/JavaScript) 
 
-##GitHub Pages: 🖥
+## GitHub Pages: 🖥
 
 Puedes acceder a la vista del proyecto mediante el siguiente link: https://hectorgv00.github.io/FSD-Proyecto1-VideoconsolaCSS/
 
